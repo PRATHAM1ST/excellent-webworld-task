@@ -24,41 +24,9 @@ body {
 }
 
 .box {
-  left: 0;
-  top: 0;
   background-color: transparent;
   color: var(--color-orange);
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  animation: carousel 10s linear infinite;
-}
-
-.box-reverse {
-  left: 0;
-  top: 0;
-  background-color: transparent;
-  color: var(--color-orange);
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  animation: carouselReverse 10s linear infinite;
-}
-
-@keyframes carousel {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes carouselReverse {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
 }
